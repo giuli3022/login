@@ -1,0 +1,40 @@
+body {
+    background-color: #76b852;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+    margin: 200px 0 0 500px;
+    padding: 45px;
+    width: 360px;
+    box-shadow: 15px black;
+}
+
+.email, .password, .boton {
+    height: 46px;
+    margin-bottom: 15px;
+    width: 100%;
+    padding-left: 15px;
+}
+
+.email {
+    background-color: #f2f2f2;
+    border: 1px solid  #f2f2f2;
+    box-sizing: border-box;
+    }
+
+.password {
+    background-color: #f2f2f2;
+    border: 1px solid  #f2f2f2;
+    box-sizing: border-box;
+}
+
+.boton {
+    background-color: #4caf50;
+    border:1px solid #4caf50;
+    color: white;
+    }
