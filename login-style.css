@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: #76b852;
     font-family     : 'Roboto', sans-serif;
 }
 
@@ -11,7 +11,7 @@ body {
     margin          : 200px 0 0 500px;
     padding         : 45px;
     width           : 360px;
-    box-shadow      : 15px black;
+    box-shadow      : 5px 5px 20px 1px black;
 }
 
 .email,
@@ -20,23 +20,44 @@ body {
     height       : 46px;
     margin-bottom: 15px;
     width        : 100%;
-    padding-left : 15px;
 }
 
 .email {
     background-color: #f2f2f2;
     border          : 1px solid #f2f2f2;
     box-sizing      : border-box;
+    padding-left    : 30px;
 }
 
 .password {
     background-color: #f2f2f2;
     border          : 1px solid #f2f2f2;
     box-sizing      : border-box;
+    padding-left    : 30px;
 }
 
 .boton {
-    background-color: #4caf50;
-    border          : 1px solid #4caf50;
+    background-color: #4CAF50;
+    border          : 1px solid #4CAF50;
     color           : white;
+    padding-left    : 15px;
+}
+
+.boton:hover {
+    background-color: #255428;
+    transition      : background 1s ease;
+
+}
+
+.icono {
+    position: absolute;
+    left    : 6px;
+    top     : 15px;
+    color   : grey;
+
+}
+
+.relativo {
+    position: relative;
+
 }
